@@ -1,0 +1,22 @@
+h1 {
+    color: gold !important;
+    font-family: 'Condiment', serif;
+    text-align: center;
+}
+body{
+    background-color: rgb(42, 35, 35) !important;
+}
+button{
+    background-color: rgb(53, 53, 98);
+}
+code{
+    background-color: rgb(126, 84, 32);
+    color: white !important;
+}
+p{
+    color: white;
+}
+.card-1{
+    background-color: rgb(10, 26, 11) !important;
+    color: white !important;
+}

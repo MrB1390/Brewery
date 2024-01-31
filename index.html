@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brewery</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Condiment&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Brewery</h1>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/pexels-michaela-s-10202235.jpg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Bootstrap
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">API</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">WORK</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">
+                Sample API
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h2 id="single-brewery"><a href="#single-brewery">Single Brewery</a></h2>
+      <p>Get a single brewery.</p>
+      <p><code>https://api.openbrewerydb.org/v1/breweries/{obdb-id}</code></p>
+      <button class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 my-4 mb-4 md:text-lg md:px-10" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample" id="by_single-1">
+        Run <span class="ml-2 text-xl">▶</span>
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample2">
+      <div class="card card-body card-1" id="code-1">
+        
+      </div>
+    </div>
+      <h2 id="list-breweries"><a href="#list-breweries">List Breweries</a></h2>
+      <p>Returns a list of breweries.</p>
+      <p><code>https://api.openbrewerydb.org/v1/breweries</code></p>
+      <button class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 my-4 mb-4 md:text-lg md:px-10" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample" id="by_filter-1">
+        Run <span class="ml-2 text-xl">▶</span>
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample1">
+      <div class="card card-body card-1" id="code-2">
+       
+      </div>
+    </div>
+      <h2 id="filter-city"><a href="#filter-breweries">by_city</a></h2>
+      <p>Fiter breweries by city.</p>
+      <p><code>https://api.openbrewerydb.org/v1/fil-breweries</code></p>
+      <button class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 my-4 mb-4 md:text-lg md:px-10" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="by_city-1">
+        Run <span class="ml-2 text-xl">▶</span>
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body card-1" id="code-3">
+       
+      </div>
+    </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
